@@ -3,7 +3,7 @@ if (!defined('IN_XSS_PLATFORM')) {
     exit('Access Denied');
 }
 
-define("PASS", "2a05218c7aa0a6dbd370985d984627b8"); //后台登录密码：默认密码bluelotus
+define("PASS", "e67bf1da61d2e2371b947350f5d6745e"); //后台登录密码：默认密码bluelotus 2a05218c7aa0a6dbd370985d984627b8
 define("DATA_PATH", "/tmp"); //xss记录、封禁ip列表存放目录，只有tmp目录可写，不能修改
 define("JS_TEMPLATE_PATH", "template"); //js模板存放目录
 define("MY_JS_PATH", "myjs"); //我的js存放目录
